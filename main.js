@@ -11,16 +11,16 @@ function getArrayStats(arr) {
   };
 }
 
-const arr = [1, 3, -5, 7, 9];
-const stats = getArrayStats(arr);
+const arr1 = [1, 3, -5, 7, 9];
+const stats = getArrayStats(arr1);
 console.log(stats); 
 
 function toAbsolute(arr) {
   return arr.map(num => Math.abs(num));
 }
 
-const arr = [1, -3, 4, -5];
-const absArr = toAbsolute(arr);
+const arr2 = [1, -3, 4, -5];
+const absArr = toAbsolute(arr2);
 console.log(absArr); 
 
 
